@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+    background: rgba(151, 151, 151, 0.03);
+}
+*{
+    box-sizing: border-box;
+}
+
+.diver{
+
+    background-color: lime;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    position: fixed;
+    
+}
+
+.showcase{
+    width: 100%;
+    position: relative;
+    background: rgb(46, 45, 45) no-repeat center center/cover;
+}
+
+.logo{
+    height: 50%;
+}
+
+nav .menu{
+    display: flex;
+    
+}
+
+nav .menu li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 0px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #585858;
+    letter-spacing: 1px;
+}
+
+.search{
+    width: 250px;
+    height: 40px;
+    background-color: rgba(245, 245, 245, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0px 20px;
+}
+
+.search input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.movie {
+    background-color: #606469;
+}
+
+
+.search i{
+    color: #3a3a3a;
+}
+
+nav .menu li a:hover{
+    background-color: rgb(121, 115, 115);
+    color: #fff;
+    box-shadow: 5px 10px 30px rgba(53,53,53,0.1);
+    transition: all ease 0.2s ;
+
+}
+
+section{
+    display: flex;
+    width: 100%;
+    overflow-x: auto; 
+    background-color: rgb(95, 90, 90);
+}
+
+section img{
+    width: 200px;
+}
+
+img:hover{
+    margin-left: 0 40px;
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+.content{
+    border:1px solid rgb(185, 182, 182);
+    display: none;
+    padding: 2px;
+    background: rgb(167, 23, 23);
+}
+
+#content_close{
+    cursor: pointer;
+}
+
+.content div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+    align-items: center;
+
+
+}
+
+.content_display{
+    display: block;
+}
+
+.user_comment{
+    padding: 7px;
+    height: 40px;
+}
